@@ -1,0 +1,98 @@
+a.navbar {
+  word-break: break-all;
+  font-weight: 800;
+  font-family: Georgia;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 160px 1000px;
+  column-gap: 520px;
+
+}
+
+.grid-1 {
+  text-align: left;
+}
+
+.grid-2 {
+  text-align: right;
+}
+
+
+.logout-button {
+  font-size: 20px;
+  color: black;
+  border: 2px solid #F7ECDE;
+  background-color: #F7ECDE;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  bottom: 5px;
+}
+
+.exit-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+
+
+
+
+
+
+body {
+  margin: 0px;
+}
+
+.navbar {
+  text-align: right;
+  background: #E9DAC1;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+
+.item {
+  color: black;
+  border: 2px solid #F7ECDE;
+  background-color: #F7ECDE;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: rgb(85, 85, 85);
+}
+
+a.navbar span {
+  font-weight: 200;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  background-color: rgb(121, 121, 121);
+}
+
+.createAccount {
+  position: relative;
+  top: 20px;
+
+}

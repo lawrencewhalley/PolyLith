@@ -1,0 +1,34 @@
+.content-table thead tr {
+    background-color: rgb(105, 105, 105);
+    color: rgb(0, 0, 0);
+    height: 70px;
+    width: 600px;
+    position: center;
+}
+
+.content-table thead tr td {
+    border: 1px solid #000000;
+}
+
+.content-table tr td {
+    border: 1px solid #939393;
+    overflow: clip;
+    text-overflow: clip;
+    height: 100px;
+}
+
+.content-table img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-table tbody {
+    background-color: rgb(193, 193, 193);
+}
+
+.productNameHere {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100px;
+    width: 500px;
+}
